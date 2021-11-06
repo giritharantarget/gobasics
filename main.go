@@ -26,4 +26,5 @@ func main() {
 
 	Slice();
 	MapType();
+	Struct();
 }

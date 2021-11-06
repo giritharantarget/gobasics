@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 
 func Struct(){
 
@@ -9,5 +11,10 @@ func Struct(){
 		LastName string
 	}
 
-	
+	var u  user;
+	u.ID =42
+	u.FirstName = "Sam"
+	fmt.Println(u)
+
+
 }
